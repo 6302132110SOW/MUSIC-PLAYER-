@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+/* css variables */
+:root{
+  --bg-dark:#2e4374;
+  --bg-light: #4b527e;
+  --white:#fff;
+  --dark:#222;
+  --md-dark: #555;
+  --txt-dark:#7c81ab;
+  --txt-ligt:#e5c3a6;
+
+  --header-1: 6rem;
+  --header-2: 4rem;
+  --header-3: 2rem;
+
+  --para: 1.2rem;
+
+  --font-we-dark: bold;
+  --font-we-md: 600;
+  --font-we-sm: 400;
+
+  --shadow-1: box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow-md: box-shadow: rgba(0, 0, 0.35) 0px 5px 15px;
+  --shadow-dark: box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+  --bg-graident: linear-gradient(
+    to left,
+  )
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
